@@ -1,4 +1,4 @@
-from Solution import Solution
+from Recursive_Solution import Solution
 import unittest
 from timeout_decorator import timeout
 
