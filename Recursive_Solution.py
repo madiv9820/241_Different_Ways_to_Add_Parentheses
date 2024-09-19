@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
     def diffWaysToCompute(self, expression: str) -> List[int]:
-        # Recursive Solution, Time Complexity: O(2^n)
+        # Recursive Solution, Time Complexity: O(2^n), Space Complexity: O(n)
         # Dictionary to store the available operations and their corresponding functions
         operations = {
             '*': lambda x, y: x * y,  # Multiplication
