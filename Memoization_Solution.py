@@ -2,6 +2,7 @@ from typing import List
 
 class Solution:
     def diffWaysToCompute(self, expression: str) -> List[int]:
+        # Solution using Memoization: Time Complexity: O(n^3), Space Complexity: O(n^3)
         # Define a dictionary to map operators to their corresponding operations
         operators = {
             '*': lambda a, b: a * b,  # Multiplication
